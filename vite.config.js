@@ -15,6 +15,9 @@ dotenv.config();
 //   },
 // });
 
+delete process.env['CommonProgramFiles(x86)'];
+delete process.env['ProgramFiles(x86)'];
+
 
 
 export default ({ mode }) => {
